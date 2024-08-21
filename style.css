@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.901), rgba(255, 255, 255, 0.655)), url(assets/background.jpg);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #023047, #02304776);
+    color: #fff;
+    border-radius: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffb703;
+}
+
+#span-logo {
+    display :inline-block;
+    margin-bottom: 6px;
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #8ecae6;
+    border-radius: 5px;
+}
+
+.menu a:not(focus) {
+    border-radius: 5px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.search-box input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    width: 230px;
+    margin: 5px;
+}
+
+.search-box input[type="text"]:focus {
+    outline: none;
+}
+
+.search-box button{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    width: 65px;
+    background-color: #fb8500;
+    color: #fff;
+}
+
+#search-btn:hover {
+    background-color: #ffb703;
+}
+
+#clear-btn:hover {
+    background-color: #ffb703;
+}
+
+section {
+    display: inline-block;
+    color: #023047;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20px;
+    background-color: #fff;
+    width: 55%;
+    padding: 0px 15px 1px 15px;
+    background: linear-gradient(to right, #ffffffca, #ececec92);
+    border-radius: 40px;
+}
+
+.title-big {
+    font-size: 50px;
+}
+
+.section-normal {
+    font-size: 25px;
+}
+
+#img-windows{
+    display:inline-block;
+    height:  400px;
+    border-radius: 60px;
+    margin-left: 10%;
+    padding-top: 0%;
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background-color: #219ebc;
+    width: 100%;
+    background: linear-gradient(to right, #219dbcbb, #219dbc7b);
+}
+
+footer div img {
+    display: inline;
+    padding: 10px 0px 5px 20px;
+}
