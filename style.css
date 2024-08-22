@@ -91,27 +91,31 @@ section {
     text-align: justify;
     margin-top: 2%;
     margin-left: 20px;
-    background-color: #fff;
-    width: 55%;
+    width: 45%;
     padding: 0px 15px 1px 15px;
     background: linear-gradient(to right, #ffffffca, #ececec92);
     border-radius: 40px;
 }
 
 .title-big {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .section-normal {
-    font-size: 25px;
+    font-size: 23px;
 }
 
-#img-windows{
+#div-result {
     display:inline-block;
-    height:  400px;
-    border-radius: 60px;
-    margin-left: 10%;
-    padding-top: 0%;
+    height:  40px;
+    border-radius: 20px;
+    margin-left: 40px;
+    position: absolute;
+    top: 14%;
+    width: 480px;
+    height: 480px;
+    padding: 10px;
+    color: #023047;
     
 }
 
@@ -129,3 +133,78 @@ footer div img {
     display: inline;
     padding: 10px 0px 5px 20px;
 }
+
+.btn-normal {
+    display: block;
+    color: #fff;
+    background-color: #fb8500;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    margin: 20px;
+    position: relative;
+    left: 20% ;
+}
+
+.btn-normal:hover {
+    background-color: #ffb703;
+}
+
+.our-team {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 130px;
+    width: 400px;
+    height: 365px;
+    position: fixed;
+    color: #023047;
+    background: linear-gradient(to left, #ffffffbe, #e6e6e6);
+    border-radius: 40px;
+}
+
+#id-01 {
+    position: absolute; 
+    bottom: 10%; 
+    left: 9%;
+}
+
+#id-02 {
+    position: absolute; 
+    bottom: 10%; 
+    left: 35%;
+}
+
+#id-03 {
+    position: absolute; 
+    bottom: 10%; 
+    left: 65%;
+}
+
+#name {
+    border-radius: 5px;
+    border-color: #fb8500;
+    border-style: solid;
+    width: 300px;
+    margin: 10px 0px 20px 10px;
+}
+
+#email {
+    border-radius: 5px;
+    border-color: #fb8500;
+    border-style: solid;
+    width: 300px;
+    margin: 10px 0px 20px 10px;
+}
+
+#msg {
+    border-radius: 5px;
+    border-color: #fb8500;
+    border-style: solid;
+    border-width: 2px;
+    width: 500px;
+    margin: 10px 0px 20px 10px;
+    height: 150px;
+}
+
